@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--indica el tipo de documento-->
+ <html lang="es"> <!--indicamos idioma-->
+     <head>
+         <meta charset="utf-8"> <!--reproducción de tildes y ñ-->
+         <meta name="Author" content="Esther García 2Bach B">
+         <meta name="Description" content="Formulario de inscripción"> <!--contenido de la web-->
+         <meta name="Keywords" content="Esther, formulario, html"> <!---palabras claves-->
+         <link rel="stylesheet" href="css/formulario.css"> <!--linkeamos un archivo css que se ejecutará en primer lugar-->
+         <title>Formulario inscripción</title>
+         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+         </style> 
+    </head>
+    <body style="font-family: 'Shippori Mincho', serif;" class="body">
+        <h2>Formulario de Inscripción</h2>
+        <form>
+            <section class="primera-seccion">
+                <h3> Datos personales </h3>
+                <label> Nombre: <input class="control" type="text" name="nombres" id="nombres" placeholder="Introduzca su nombre">  </label>
+                <label> Apellidos: <input class="control" type="text" name="Apellidos" id="Apellidos" placeholder="Introduzca su apellido"> </label>
+                <p>Por favor su sexo:</p>
+                <input type="radio" id="male" name="genero" value="Hombre">
+                <label for="male">Hombre</label><br>
+                <input type="radio" id="female" name="genero" value="Mujer">
+                <label for="female">Mujer</label><br>
+                <input type="radio" id="other" name="genero" value="Otros">
+                <label for="other">Otros</label>
+            </section>
+            <section class="segunda-seccion">
+                <h3> Otros datos </h3>
+                <input class="control" type="email" name="correo" id="correo" placeholder="Introduzca su correo">
+                <input class="control" type="password" name="contraseña" id="contraseña" placeholder="Introduzca su contraseña">
+                <p>Estoy de acuerdo con <a href="#"> Términos y condiciones </a></p>
+                <input class="botons" type="submit" value="Registrar">
+                <input class="botons" type="submit" value="Borrar">
+                <p><a href="#">¿Ya tengo cuenta?</a></p>
+
+            </section>
+
+        </form>
+        <footer class="footer"><small>&copy; Copyrigth 2021. All rights reserved.</small></footer>
+    </body>
+ </html>

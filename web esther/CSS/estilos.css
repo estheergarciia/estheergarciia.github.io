@@ -1,0 +1,64 @@
+
+.body {background-image: url('fondo.jpg');
+}
+.titulos {
+    background-color: white;
+    color: pink;
+    width: 400px;
+    font-size: 25px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 90px;
+}
+.nav {
+    margin: 0%;
+    align-items: center;
+    width: 100%;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(54, 29, 54);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(54, 29, 54);
+}
+.aside h2{
+    background-color: white;
+    color: rgb(105, 162, 201);
+    width: 500px;
+    font-size: 22px;
+}
+.page{
+    display: table;
+    width: 100%
+}
+.container {
+    float: right;
+    width: 40%
+}
+.aside{
+    float: left;
+    width: 40%
+}
+.container h2{
+    background-color: rgba(245, 222, 179, 0.658);
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+.aside p {
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+    font-size: 18px;
+}
+.footer{
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+svg {
+    height: 25px;
+    weight: 10%
+}

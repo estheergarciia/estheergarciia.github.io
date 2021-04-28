@@ -1,0 +1,69 @@
+<DOCTYPE html>
+    <html lang="es">
+        <head>
+            <title>EXAMEN GRID</title>
+            <meta charset="UTF-8">
+            <style>
+                body{ background-image: url('bosque.jpg');}
+                .header {text-align: center;
+                        grid-area: CABECERA;}
+                .h2{ color:rgb(92, 66, 56);}
+                .h1 {color: seashell; background-color: whitesmoke;}
+                .image1 {grid-area: IMGA;}
+                .image2 {grid-area: IMGB;}
+                .image3 {grid-area: IMGC;}
+                .image4 {grid-area: IMGD;}
+                .image5 {grid-area: IMGE;}
+                .image6 {grid-area: IMGF;}
+                .footer {grid-area: FOOTER; color: rgb(92, 66, 56); size: 400px;}
+                .grid-container {display: grid;
+                            grid-template-areas: "CABECERA CABECERA CABECERA"
+                                                 "IMGA IMGB IMGC"
+                                                 "IMGD IMGE IMGF"
+                                                 "FOOTER FOOTER FOOTER";
+                            background-color: rgb(92, 66, 56); }
+                .grid-container > div {background-color: black;
+                                        margin: 5px;}
+                @media only screen and (max-width: 600px) {
+                    body { background-image: none;}
+                    .grid-container {grid-template-areas:"CABECERA CABECERA"
+                                                         "IMGA IMGB"
+                                                         "IMGC IMGD"
+                                                         "FOOTER FOOTER" ;
+                                    background-color:white;}
+                    .grid-container > div {background-color:rgb(92, 66, 56);}
+                    }
+            </style>
+        </head>
+        <body>
+            <h1>Esther García Juez</h1>
+            <div class="grid-container">
+                <div class="CABECERA">
+                    <h2 class="h2">
+                            Adopta a Lilo
+                    </h2>
+                </div>
+                <div class="IMGA">
+                    <img src="img/perrito 1.jpg" style="width: 200px; height: 200px; margin-left: auto; margin-right: auto;">
+                </div>
+                <div class="IMGB">
+                    <img src="img/perrito 1.jpg" style="width: 200px; height: 200px; margin-left: auto; margin-right: auto;">
+                </div>
+                <div class="IMGC">
+                    <img src="img/perrito 1.jpg" style="width: 200px; height: 200px; margin-left: auto;  margin-right: auto;">
+                </div>
+                <div class="IMGD">
+                    <img src="img/perrito 1.jpg" style="width: 200px; height: 200px; margin-left: auto; margin-right: auto;">
+                </div>
+                <div class="IMGE">
+                    <img src="img/perrito 1.jpg" style="width: 200px; height: 200px; margin-left: auto; margin-right: auto; ">
+                </div>
+                <div class="IMGF">
+                    <img src="img/perrito 1.jpg" style="width: 200px; height: 200px; margin-left: auto; margin-right: auto;">
+                </div>
+                <div class="FOOTER">
+                    Se trata de un pequeño tequel de tan sólo 4 meses de edad, es muy cariñoso y juguetón. Lilo busca una familia que lo de mucho amor.
+                </div>
+            </div>
+        </body>
+    </html>

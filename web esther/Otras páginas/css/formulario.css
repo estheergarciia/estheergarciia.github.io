@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primera-seccion {
+    width: 400px;
+    background-color: lightseagreen;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color:white;
+}
+.segunda-seccion {
+    width: 400px;
+    background-color: lightseagreen;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+.primera-seccion h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.control {
+    width: 100%;
+    background: rgb(168, 221, 224);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(23, 82, 116);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(23, 82, 116);
+}
+.body h2{ 
+    background-color: white;
+    color: pink;
+    width: 400px;
+    font-size: 25px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 90px;
+}
+.footer{
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+}
+.segunda-seccion p{
+    height: 40px;
+    text-align: center;
+}
+.segunda-seccion a:hover{ 
+    color:rgb(23, 82, 116);
+    text-decoration: underline;
+}
+.botons{ width: 100%;
+    background:rgb(23, 82, 116);
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    margin: 16px;}
+.body {
+        background-image: url('fondoformulario.jpg');
+}
